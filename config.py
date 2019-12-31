@@ -34,7 +34,15 @@ CURRENT_OS = str(platform.system())
 CURRENT_SYS = CURRENT_OS + ' ' + str(platform.release()) + ' ' + str(platform.version())
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+if getattr(sys, 'frozen', False):
+    BASE_DIR = os.path.dirname(sys.executable)
+elif __file__:
+    BASE_DIR = os.path.dirname(__file__)
+
+# config_path = os.path.join(application_path, config_name)
+
 WEBDRIVER_DIR = ''
 # WEBDRIVER_DIR_R 
 LOG_DIR = ''
@@ -43,7 +51,7 @@ WEBDRIVER_DIR = BASE_DIR + '\\webdriver\\'
 LOG_DIR = BASE_DIR + '\\log\\'
 
 FIREFOX_WEBDRIVER = WEBDRIVER_DIR + 'geckodriver.exe'
-
+FIREFOX_WEBDRIVER2 = BASE_DIR + 'geckodriver.exe'
 
 
 # First!!

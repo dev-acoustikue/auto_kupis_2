@@ -402,25 +402,15 @@ class AutoKupis2GUI_LOGIN(QMainWindow, AutoKupis2GUI_MainWnd):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Test & Debug
 if __name__ == "__main__":
 
-    print(PROJECT_BANNER)
+    # print(PROJECT_BANNER)
      
     app = QApplication(sys.argv)
     xwin = AutoKupis2GUI_LOGIN()
     app.exec()
+
+# app = QApplication(sys.argv)
+# xwin = AutoKupis2GUI_LOGIN()
+# app.exec()

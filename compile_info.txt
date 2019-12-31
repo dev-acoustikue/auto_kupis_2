@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole ak2.py --icon=C:\Users\acoustikue\Documents\Git\auto_kupis_2\ui\auto_kupis_2.ico
