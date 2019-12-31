@@ -18,6 +18,7 @@ Or you can just download compiled file in **build** folder in this repository. T
 
 ## Update log
 0.1.0va: Initial commit, extremely experimental
+
 0.1.4v : Fixed thread error. Added ak2_worker module.
 
 
