@@ -16,9 +16,11 @@ pyinstaller --onefile --noconsole ak2.py --icon=C:\Users\acoustikue\Documents\Gi
 
 Or you can just download compiled file in **build** folder in this repository. The directory contains ak2.exe file and geckodriver.exe. **geckodriver file must be located under the webdriver folder**, otherwise the program will not work.
 
-## Update log
-0.1.0va: Initial commit, extremely experimental
 
-0.1.4v : Fixed thread error. Added ak2_worker module.
+![demo](capture.png)
+
+## Update log
+- 0.1.0va: Initial commit, extremely experimental
+- 0.1.4v : Fixed thread error. Added ak2_worker module.
 
 
